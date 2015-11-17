@@ -10,7 +10,7 @@ $app->get('/', function() use ( $app ) {
 
 // http://domain.address/api/tasks
 // get all tasks
-$app->get('/tasks', function() use ( $app ) {
+$app->get('/jeferson', function() use ( $app ) {
     $tasks = getTasks();
     //Define what kind is this response
     $app->response()->header('Content-Type','application/json');
